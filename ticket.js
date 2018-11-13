@@ -32,4 +32,4 @@ else if (age >= 64) {
 // prezzo scontato //
 var finalticket = ticketsale * km;
 
-document.getElementById("finalticket").innerHTML = ("Il suo prezzo totale compreso di sconto è" + finalticket)
+document.getElementById("finalticket").innerHTML = ("Il suo prezzo totale compreso di sconto è: " + finalticket + " &#8364")
