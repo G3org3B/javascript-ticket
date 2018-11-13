@@ -14,6 +14,8 @@ console.log(km * ticket);
 
 // Applicazione degli sconti //
 
+ var ticketsale = ticket * km;
+
 // sconto 20% //
 if (age <= 18) {
   ticketsale = ((ticket / 100) * 80) * km;
@@ -29,4 +31,5 @@ else if (age >= 64) {
 
 // prezzo scontato //
 var finalticket = ticketsale * km;
+
 document.getElementById("finalticket").innerHTML = ("Il suo prezzo totale compreso di sconto è" + finalticket)
